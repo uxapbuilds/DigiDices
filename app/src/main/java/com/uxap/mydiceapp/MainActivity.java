@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements ShakeDetector.Lis
         randEventBtn = findViewById(R.id.temp_btn);
 
         //final MediaPlayer diceSoundEffect = MediaPlayer.create(this, R.raw.dices);
+        //NOT WORKING
         randEventBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
