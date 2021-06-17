@@ -3,7 +3,6 @@ package com.uxap.mydiceapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.hardware.SensorManager;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -14,6 +13,12 @@ import android.widget.TextView;
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
 import com.squareup.seismic.ShakeDetector;
+
+/*
+*
+* ////////////////////// Built By UXAP. /////////////////////////
+*
+* */
 
 public class MainActivity extends AppCompatActivity implements ShakeDetector.Listener{
 
